@@ -46,7 +46,7 @@ public class Main {
 		temp = 2 * a;
 
 		if (temp != 0) {
-			z = b + Math.sqrt((Math.pow(b, 2)) + 4 * a * c) / temp - (Math.pow(a, 3)) * c + b;
+			z = (b + Math.sqrt((Math.pow(b, 2)) + 4 * a * c)) / temp - (Math.pow(a, 3)) * c + b;
 		} else {
 			System.out.println("Знаменатель равен нулю");
 			z = Double.NaN;
